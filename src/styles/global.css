@@ -1,0 +1,17 @@
+.notFound {
+  padding-top: 15%;
+  text-align: center;
+}
+
+.notFound h1 {
+  font-size: 130px;
+}
+.notFound p {
+  font-size: 50px;
+}
+.erroe-form{
+  margin: 5px 0px;
+  font-size: 14px;
+  color: rgb(154, 35, 35);
+  font-weight: 600;
+}

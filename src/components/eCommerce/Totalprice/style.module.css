@@ -1,0 +1,10 @@
+.texttotal{
+    color:rgb(42, 42, 113);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.textprice{
+    font-weight: 600;
+    font-size: 20px;
+}
