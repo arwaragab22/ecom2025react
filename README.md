@@ -1,30 +1,44 @@
-# React + TypeScript + Vite
+# 🛒 E-commerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fully functional **E-commerce** application built with **React**, **Redux Toolkit**, and **TypeScript**. The app allows users to browse products, add them to the cart, and proceed with a simple checkout flow. It also integrates **JSON Server Auth** for authentication and uses **React Router** for navigation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Features
 
-## Expanding the ESLint configuration
+- **User Authentication** using **JSON Server Auth**  
+- **Product Listing** with detailed information  
+- **Add to Cart** functionality with product quantity management  
+- **Checkout Flow**  
+- **Responsive Design** using **React Bootstrap**  
+- **Persistent Cart** using **React Persist** for saving cart state
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 💻 Technologies Used
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **React**  
+- **Redux Toolkit**  
+- **TypeScript**  
+- **React Router**  
+- **React Bootstrap**  
+- **React Persist**  
+- **JSON Server Auth**  
+- **CSS**  
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+---
+
+## 👩‍💻 My Role
+
+I was responsible for developing the **entire front-end** of the application, which involved:
+
+- Setting up **Redux Toolkit** for state management and authentication  
+- Building reusable UI components with **React Bootstrap**  
+- Implementing **React Router** for navigation  
+- Integrating **JSON Server Auth** for user authentication  
+- Using **React Persist** to ensure the cart state persists across sessions  
+- Writing clean, maintainable **TypeScript** code  
+
+
+
+
